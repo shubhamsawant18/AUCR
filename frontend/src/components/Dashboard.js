@@ -3,12 +3,10 @@ import Navbar from "./Navbar";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div style={{ marginTop: "70px", padding: "20px", textAlign: "center" }}>
       <Navbar />
-      <div style={{ padding: "20px", textAlign: "center" }}>
-        <h2>Dashboard</h2>
-        <p>Welcome to your dashboard!</p>
-      </div>
+      <h2>Dashboard</h2>
+      <p>Welcome to your dashboard!</p>
     </div>
   );
 };
